@@ -1,0 +1,53 @@
+.jumbotron {
+	height: 400px; 
+	background: radial-gradient(white, rgb(0,0,128)); opacity:0.8;;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 50px;*
+}
+
+h2, h3 {
+	text-indent:5em; 
+	font-weight: bold; 
+	font-style: italic; 
+	font-family: "Mali", cursive;
+}
+
+article {padding: 1em;
+}
+
+.hobbies {text-indent: 2em; 
+	text-decoration: underline;
+}
+
+li, td {font-family: "Charmonman", cursive
+}
+
+.display-4 {font-weight: bold; 
+	font-family: "Pacifico", cursive;
+}
+
+p {font-family: "Varela Round", sans-serif;
+} 
+
+#side {float: right; width: 21%; 
+    	background: radial-gradient(white, rgb(255,215,0)); 
+    	border-radius: 60px;
+    	padding: 20px;
+}
+
+#middle {float: left; width: 75%; 
+    	background: radial-gradient(white, rgb(128,128,0));
+    	 border-radius: 60px; 
+    	padding-left: 30px; 
+    	margin-right: 50px;
+    	border: 10px solid black; 
+}
+
+
+
+
+
+/*article {border-style: solid;*/
+			/*border-width: 5px;*/
+			/*background-image: url(http://everything.typepad.com/photos/uncategorized/2008/03/28/crosshatch.png);		}*/
