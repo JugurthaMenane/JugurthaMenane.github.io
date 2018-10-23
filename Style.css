@@ -1,0 +1,22 @@
+h1, h2,h3 { color: blue; font-family : "Arial"; text-align: center; }
+/*h2 { color: red; font-family : "Arial"; text-align: center; text-decoration: underline; }*/
+/*h3 { color: purple; font-family : "Arial"; text-align: center; text-decoration: underline; }*/
+
+/*body { background-image: url(http://mfs2.cdnsw.com/fs/Root/large/cbvj1-fond_site_internet.jpg); }*/
+
+/*body { background-image: radial-gradient(blue, yellow , white);line-height: 1.4cm }*/
+
+p {text-align: center; font-size: 16px}
+/*li {font-family: "Comic sans MS";}
+/* li insides the p don't take the font I wanted */
+
+article { max-width: 700px;}
+
+body { font-family: Chakra+Petch, Arial, Sans serif; }
+
+img { width: 150px; height: 155px; }
+
+.description {padding: 15px; margin : 12px; background-color: green; border: 5px solid red;} 
+
+.photos {display: inline;}
+/*.images {display: inline;}*/
