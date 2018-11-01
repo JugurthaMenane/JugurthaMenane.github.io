@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Tic Tac Toe</title>
+	<link rel="stylesheet" href="./tictactoe.css"/>  
+    <!-- I verify the CSS is linked to the HTML by trying to chnage the font-size for instance -->
+
+	<h1> Tic Tac Toe by Jugurtha</h1>
+</head>
+ 
+<body>
+
+<div class="game">
+    <table id="tictactoe">
+        <!-- I create a table with all the cells -->
+        <tbody>
+        <tr>
+            <td class="boxe" id="Cell0" onclick="play('Cell0');">&nbsp;</td>
+            <td class="boxe" id="Cell1" onclick="play('Cell1');">&nbsp;&nbsp;</td>
+            <td class="boxe" id="Cell2" onclick="play('Cell2');">&nbsp;&nbsp;&nbsp;</td>
+            <!-- All cells has to be similar in their form so I give them the same class -->
+            <!-- But I also give them unique ID for later know who will win -->
+        </tr>
+        <tr>
+            <td class="boxe" id="Cell3" onclick="play('Cell3');">&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td class="boxe" id="Cell4" onclick="play('Cell4');">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td class="boxe" id="Cell5" onclick="play('Cell5');">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+        </tr>
+        <tr>
+            <td class="boxe" id="Cell6" onclick="play('Cell6');">&nbsp;&nbsp;&nbsp;</td>
+            <td class="boxe" id="Cell7" onclick="play('Cell7');">&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td class="boxe" id="Cell8" onclick="play('Cell8');">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <!-- Problem with empty cells, so I put &nbsp -->
+        </tr>
+        </tbody>
+    </table>
+</div>
+<div id="replay">
+    <button type="button" class="button-replay" onclick="Initialisation();">Replay</button>
+</div>
+ 
+	<script src="./tictactoe.js"> </script>
+</body>
+</html>
