@@ -1,0 +1,92 @@
+body {
+    background-color: #FFEFD5;
+}
+ 
+#boxe {
+	width: 350px;
+	height: 350px;
+	margin: 22px auto 22px auto;
+	padding: 10px;
+	border-radius: 5px;
+}
+ 
+ 
+table {
+            border-collapse: collapse;
+            /*borders of cells which are close-by will form a unique border*/
+}
+.boxe {
+    width: 150px;
+    height: 150px;
+}
+
+/*I need to define the border, I want to let it open on the sides*/
+#Cell0 {
+    border-right: solid 10px black;
+    border-bottom: solid 10px black;
+}
+#Cell1 {
+    border-right: solid 10px black;
+    border-bottom: solid 10px black;
+    border-left: solid 10px black;
+    
+}
+#Cell2 {
+    border-bottom: solid 10px black;
+    border-left: solid 10px black;
+    
+}
+#Cell3 {
+    border-right: solid 10px black;
+    border-bottom: solid 10px black;
+    border-top: solid 10px black;
+}
+#Cell4 {
+    border: solid 10px black;
+}
+#Cell5 {
+    border-left: solid 10px black;
+    border-bottom: solid 10px black;
+    border-top: solid 10px black;
+}
+#Cell6 {
+    border-right: solid 10px black;
+    border-top: solid 10px black;
+}
+#Cell7 {
+    border-right: solid 10px black;
+    border-left: solid 10px black;
+    border-top: solid 10px black;
+}
+#Cell8 {
+    border-left: solid 10px black;
+    border-top: solid 10px black;
+}
+#game {
+    margin-top: 200px;
+    text-align: center;
+}
+
+#tictactoe {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Now put the button in the center of the page in a fixed position*/
+#replay {
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    text-align: center;
+    width: 100%;
+    display: block;
+}
+.button-replay {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-family: 'Helvetica', cursive;
+    font-size: 100px;
+    background-color: #BDB76B;
+    border-radius: 40px;
+    border: none;
+}
