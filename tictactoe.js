@@ -64,7 +64,7 @@ function checking() {
             alert('Player Red WIN');
         }          
     }
-    }
+  }
 
     // document.getElementById("replay").style.visibility = "visible";
 document.getElementById("replay").onclick = function() {
