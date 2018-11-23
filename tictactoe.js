@@ -1,9 +1,9 @@
- const players = ['Red', 'Blue'];
+const players = ['Red', 'Blue'];
     //Et le player qui commence
-    let player = players[0];
+let player = players[0];
     // let boxPlayed = 0;
 
-function play(zone) { //Recupère le nom de la zone cliquée via "zone"
+function play(zone) { 
     
     if (player == players[0]) {
         if (document.getElementById(zone).className.indexOf('filled') >= 0) {
@@ -34,6 +34,7 @@ function play(zone) { //Recupère le nom de la zone cliquée via "zone"
         }
         
     }
+   
     checking();
 }
 
@@ -61,8 +62,11 @@ function checking() {
             alert('Player Blue WIN');
         } else if (player === players[1]) {
             alert('Player Red WIN');
-        }
-        
+        }          
+    }
+    }
+
+    // document.getElementById("replay").style.visibility = "visible";
 document.getElementById("replay").onclick = function() {
     location.reload();
 }
